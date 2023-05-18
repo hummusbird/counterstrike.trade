@@ -22,7 +22,7 @@ here's the real URI - it downloads version v0.14.10 for facebook's react:
 `https://github.com/facebook/react/archive/refs/tags/0.14.10.zip`
 
 
-if i owned the website 10.zip, i could create the subdomain `github.com∕facebook∕react∕archive∕refs∕tags∕0.14` for my the domain `10.zip`, and possibly serve whatever file i want to anyone that vists the site. I would replace all the forwardslashes with the ∕ character, and wouldn't even need to use the @ trick either. the final URI would be:
+if i owned the website 10.zip, i could create the subdomain `github.com∕facebook∕react∕archive∕refs∕tags∕0.14` for `10.zip`, and possibly serve whatever file i want to anyone that vists the site. I would replace all the forwardslashes with the ∕ character, and wouldn't even need to use the @ trick either. the final URI would be:
 
 `https://github.com∕facebook∕react∕archive∕refs∕tags∕0.14.10.zip`
 
