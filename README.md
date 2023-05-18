@@ -2,7 +2,7 @@
 
 ### I own counterstrike.trade and will use it for real examples in this doc
 
-this is a legitimate URI to testfile.md:
+this is a legitimate URI to a file in this repository, testfile.md:
 
 `https://github.com/hummusbird/counterstrike.trade/tree/main/skins.counterstrike.trade/testfile.md`
 
@@ -10,6 +10,7 @@ this is not - It takes you to counterstrike.trade/testfile.md:
 
 `https://github.com∕hummusbird∕counterstrike.trade∕tree∕main∕skins@counterstrike.trade/testfile.md`
 
+try it out! copy and paste these links into your browser.
 
 the way this works is by replacing the forwardslash /, with a similar unicode character ∕ (U+2215). the "." in `skins.counterstrike.trade` was also replaced with an @. This is read by your browser as anything before the @ being userinfo, as if you were logging into a site, and anything after being the actual path.
 imagine it as going to the site `counterstrike.trade/testfile.md` using your username `github.com∕hummusbird∕counterstrike.trade∕tree∕main∕skins`
