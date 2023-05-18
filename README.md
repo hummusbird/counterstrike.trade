@@ -1,25 +1,27 @@
 # readme.md
 
-I own counterstrike.trade and will use it for real examples in this doc
+### I own counterstrike.trade and will use it for real examples in this doc
+
+this is a legitimate URI to testfile.md:
 
 `https://github.com/hummusbird/counterstrike.trade/tree/main/skins.counterstrike.trade/testfile.md`
 
-this is a legitimate URI to testfile.md
+this is not - It takes you to counterstrike.trade/testfile.md:
 
 `https://github.com∕hummusbird∕counterstrike.trade∕tree∕main∕skins@counterstrike.trade/testfile.md`
 
-this is not - It takes you to counterstrike.trade/testfile.md
 
 the way this works is by replacing the forwardslash /, with a similar unicode character ∕ (U+2215). the "." in `skins.counterstrike.trade` was also replaced with an @. This is read by your browser as anything before the @ being userinfo, as if you were logging into a site, and anything after being the actual path.
 imagine it as going to the site `counterstrike.trade/testfile.md` using your username `github.com∕hummusbird∕counterstrike.trade∕tree∕main∕skins`
 
 now imagine it was a popular package, say React.
 
+here's the real URI - it downloads version v0.14.10 for facebook's react:
+
 `https://github.com/facebook/react/archive/refs/tags/0.14.10.zip`
 
-here's the real URI - it downloads version v0.14.10 for facebook's react
 
-if i owned the website 10.zip, i could create the subdomain `github.com∕facebook∕react∕archive∕refs∕tags∕0.14` for my the domain `10.zip`, and possibly serve whatever file i want to anyone that vists the site. I would replace all the forwardslashes with the ∕ character, and wouldn't even need to use the @ trick either. the final URI would be
+if i owned the website 10.zip, i could create the subdomain `github.com∕facebook∕react∕archive∕refs∕tags∕0.14` for my the domain `10.zip`, and possibly serve whatever file i want to anyone that vists the site. I would replace all the forwardslashes with the ∕ character, and wouldn't even need to use the @ trick either. the final URI would be:
 
 `https://github.com∕facebook∕react∕archive∕refs∕tags∕0.14.10.zip`
 
